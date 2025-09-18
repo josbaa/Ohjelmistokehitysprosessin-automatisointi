@@ -35,7 +35,7 @@ export class FeedbackComponent {
     phone: new FormControl('', [Validators.required, Validators.minLength(10)]),
     termsAndConditions: new FormControl('')
   });
-
+// TODO
   constructor(public router: Router) { }
 
   ngOnInit(): void {
